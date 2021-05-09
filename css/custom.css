@@ -1,0 +1,153 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  background-color: mediumseagreen;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlist {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  right: 20px;
+}
+
+.navlist a {
+  color: white;
+}
+
+.navlist li {
+  padding: 0 10px;
+  align-items: center;
+}
+
+.navbar-icon {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-logo {
+  display: inline-flex;
+  /* margin: 18px 0 0 10px; */
+  color: white;
+  align-items: center;
+  font-size: 25px;
+}
+
+.logo-icon {
+  padding-right: 15px;
+  color: white;
+  font-size: 200%;
+}
+
+.content {
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  margin: 0 20px;
+  width: 600px;
+}
+
+.product-image {
+  width: 35rem;
+  margin: 30px 20px;
+  height: fit-content;
+}
+
+
+.product-price {
+  font-size: 30px;
+  color: mediumseagreen;
+  padding: 10px 0;
+}
+
+.product-description {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.add-cart {
+  background-color: rgba(108, 187, 108, 0.11);
+  border: 2px solid limegreen;
+  border-radius: 5px;
+  color: limegreen;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 5px 10px 5px 0;
+}
+
+.add-cart:hover {
+  background-color: rgba(108, 187, 108, 0.356);
+}
+
+.buynow {
+  background-color: limegreen;
+  border: none;
+  width: 205px;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 17px;
+  font-size: 20px;
+  margin: 5px 10px 5px 0;
+}
+
+.buynow:hover {
+  background-color: rgb(144, 231, 144);
+}
+
+.stars {
+  color: rgb(60, 179, 66);
+}
+@media (max-width: 820px) {
+  body {
+    background-color: gray;
+  }
+
+  .content {
+    margin: 125px 0;
+    display: block;
+  }
+  .product {
+    margin: auto;
+    padding: 0 70px;
+    max-width: fit-content;
+  }
+  .product-image {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+}
+

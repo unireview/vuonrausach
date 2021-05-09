@@ -3961,7 +3961,7 @@ input[type=button].btn-block {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
@@ -4022,11 +4022,21 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 0.25rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+}
+
+.navbar-toggler-cart {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
 }
 
 .navbar-toggler-icon {
