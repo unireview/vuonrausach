@@ -151,3 +151,37 @@ h2 {
   }
 }
 
+.recommended {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rcmd-product-card {
+  color: black;
+  display: flex;
+  background-color: bisque;
+  width: 260px;
+  margin: 10px;
+}
+
+.rcmd-product {
+  margin: 5px auto 20px; 
+}
+
+.rcmd-img {
+  width: 15rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.rcmd-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.rcmd-infor {
+  display: flex;
+  justify-content: space-between;
+}
