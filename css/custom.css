@@ -1,5 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 /* p {
@@ -59,12 +60,15 @@ h2 {
   color: white;
   align-items: center;
   font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .logo-icon {
   padding-right: 15px;
-  color: white;
-  font-size: 200%;
+  /* color: white;
+  font-size: 200%; */
+  width: 10%;
+  height: auto;
 }
 
 .total {
@@ -222,8 +226,35 @@ h2 {
   margin-bottom: 10px;
 }
 
+.rcmd-price {
+  font-weight: 500;
+}
+
 .rcmd-infor {
   display: flex;
   justify-content: space-between;
+  color: mediumseagreen;
 }
 
+footer {
+  background-color: #3CB371;
+}
+
+.footer-cp {
+  color: white;
+  margin: 15px;
+}
+
+.footer-rp {
+  color: white;
+  display: inline-flex;
+}
+
+.home-image {
+  width:50%;
+}
+
+.top-banner {
+  display: flex;
+  
+}
