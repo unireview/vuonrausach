@@ -2,9 +2,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p {
+/* p {
   font-size: 200%;
-}
+} */
 
 a {
   text-decoration: none;
@@ -67,11 +67,31 @@ h2 {
   font-size: 200%;
 }
 
+.total {
+  /* background-color: aliceblue; */
+  margin: 150px 80px 100px;
+}
+
 .content {
-  margin: 200px auto;
+  margin: 30px auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+.box-shadow {
+  box-shadow: 0 2px 6px  rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-rcmdcard {
+  box-shadow: 0 2px 6px  rgba(0, 0, 0, 0.2);
+  transition: ease-in-out;
+  transition-duration: 200ms;
+}
+
+.box-shadow-rcmdcard:hover {
+  box-shadow: 0 4px 8px 0 rgba(19, 187, 109, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .product {
@@ -129,7 +149,7 @@ h2 {
 .stars {
   color: rgb(60, 179, 66);
 }
-@media (max-width: 820px) {
+@media (max-width: 1010px) {
   body {
     background-color: gray;
   }
@@ -151,22 +171,43 @@ h2 {
   }
 }
 
+.product-information {
+  
+  margin: 20px 30px;
+}
+
+.rcmd-title {
+  color:rgb(60, 179, 66);
+  font-size: 25px;
+  font-weight: 450;
+  margin: 5px;
+}
+
+.rcmd-title-box {
+  background-color: antiquewhite;
+  display: flex;
+  vertical-align: middle;
+  height: fit-content;
+  margin: 20px 0;
+}
+
 .recommended {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .rcmd-product-card {
   color: black;
   display: flex;
-  background-color: bisque;
   width: 260px;
   margin: 10px;
 }
 
 .rcmd-product {
   margin: 5px auto 20px; 
+  
 }
 
 .rcmd-img {
@@ -185,3 +226,4 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
