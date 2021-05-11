@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  
 }
 
 /* p {
@@ -74,7 +75,7 @@ h2 {
 
 .total {
   /* background-color: aliceblue; */
-  margin: 150px 80px 100px;
+  margin: 100px 80px 100px;
 }
 
 .content {
@@ -82,7 +83,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: aquamarine; */
 }
 
 .box-shadow {
@@ -90,9 +90,10 @@ h2 {
 }
 
 .box-shadow-rcmdcard {
-  box-shadow: 0 2px 6px  rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px  rgba(0, 0, 0, 0.068);
   transition: ease-in-out;
   transition-duration: 200ms;
+  border: 1px solid rgba(0, 0, 0, 0.123);
 }
 
 .box-shadow-rcmdcard:hover {
@@ -122,14 +123,19 @@ h2 {
   margin: 10px 0;
 }
 
+.product-action {
+  margin-bottom: 30px;;
+}
+
 .add-cart {
   background-color: rgba(108, 187, 108, 0.11);
   border: 2px solid limegreen;
   border-radius: 5px;
   color: limegreen;
   padding: 10px 15px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px 10px 5px 0;
+  width: 205px;
 }
 
 .add-cart:hover {
@@ -143,7 +149,7 @@ h2 {
   border-radius: 5px;
   color: white;
   padding: 12px 17px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px 10px 5px 0;
 }
 
@@ -207,8 +213,7 @@ h2 {
 }
 
 .rcmd-product {
-  margin: 5px auto 20px; 
-  
+  margin: 5px auto 20px;   
 }
 
 .rcmd-img {
@@ -269,4 +274,12 @@ footer {
   text-shadow: 2px 2px 10px #000000;
   display: inline-flex;
   align-items: center;
+}
+
+.suggest-title {
+  margin: 10px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  color:rgba(13, 167, 33, 0.973);
+  font-weight: 600;
 }
