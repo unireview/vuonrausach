@@ -208,7 +208,7 @@ h2 {
 .rcmd-product-card {
   color: black;
   display: flex;
-  width: 260px;
+  width: 410px;
   margin: 10px;
 }
 
@@ -217,19 +217,20 @@ h2 {
 }
 
 .rcmd-img {
-  width: 15rem;
+  width: 23rem;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .rcmd-name {
   font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .rcmd-price {
   font-weight: 500;
+  font-size: 20px;
 }
 
 .rcmd-infor {
