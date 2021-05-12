@@ -7,14 +7,14 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>The Farmar</title>
-    <link rel="icon" href="assets/theFarmar.png" />
+    <link rel="icon" href="../assets/theFarmar.png" />
     <!-- Font Awesome Icon -->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
     <div id="fb-root"></div>
-    <!-- <script async defer crossorigin="anonymous"
+    <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=1233387990444362&autoLogAppEvents=1"
-        nonce="EAJh4CBz"></script> -->
+        nonce="EAJh4CBz"></script>
 </head>
 
 <body>
@@ -22,9 +22,9 @@
     <nav class="navbar">
         <div class="container">
             <div style="display: flex;">
-                <img class="logo-icon" src="assets/theFarmar.png" />
+                <img class="logo-icon" src="../assets/theFarmar.png" />
 
-                <a href="/index.html" class="navbar-logo" title="Về trang chủ"></i>THE FARMAR</a>
+                <a href="../index.html" class="navbar-logo" title="Về trang chủ"></i>THE FARMAR</a>
             </div>
             <ul class="navlist">
                 <li class="nav-item navbar-toggler-cart"><a class="nav-link" href="#!" title="Giỏ hàng"><i
@@ -36,40 +36,130 @@
             </ul>
         </div>
     </nav>
+    <div class="total">
+        <div class="content box-shadow">
+            <img class="product-image" src="https://product.hstatic.net/1000282430/product/viet-quat_large.jpg"
+                alt="Có lỗi tải ảnh" />
+            <div class="product">
+                <div class="product-name">
+                    <h2>Việt Quất</h2>
+                </div>
+                <div class="rate-stars"><span class="stars">★ ★ ★ ★ ☆</span>
+                    4.0 sao</div>
+                <div class="product-price">₫185,500</div>
+                <div class="product-description">
+                    <form name="formDatHang" method="post" action="">
+                        <div class="detailSpBox">
+                            <p class="maSP"><span>Xuất xứ:</span> <b id="text-xuatsu">New Zealand</b></p>
+                            <p class="maSP" id="text-dg"><span>Đóng gói:</span> <b>125G</b></p>
+                            <div class="soluong">
+                                <span>Số lượng:</span>
+                                <div class="inpSl">
+                                    <input type="number" class="form-control" name="soluong" id="soluong" value="01"
+                                        max="9999">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="product-action">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ hàng</button>
+                    <button class="add-cart" title="Gọi điện cho người bán">Liên hệ người bán</button>
 
-    <div class="top-banner"
-        style="background-image: url('https://theme.hstatic.net/1000282430/1000544102/14/our-product-image-2.jpg?v=1267');">
-        <a class="top-banner-cover" href="#suggest">
-            <h1 class="banner-text">THE FARMAR</h1>
-        </a>
-    </div>
-
-    <div id="suggest" class="total">
-
+                </div>
+            </div>
+        </div>
         <!-- Infor -->
-        <div  class="content box-shadow">
+        <div class="content box-shadow">
 
-
-            <h5 class="suggest-title">Dành Cho Bạn
-            </h5>
-
-
+            <div class="product-information">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingOne">
+                            <h4 class="panel-title"><a href="#collapseOne"> <i
+                                        class="fa fa-caret-right"></i>&nbsp;&nbsp;Mô tả chung: VIỆT QUẤT </a></h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>Quả <a href="https://namanmarket.com.vn/products/viet-quat-19"><strong>việt
+                                            quất</strong></a> là loại quả được yêu thích trên toàn thế giới không chỉ vì
+                                    ngon mà còn vì loại quả này cung cấp nhiều chất dinh dưỡng cho cơ thể. <em>Quả việt
+                                        quất</em> có thể ăn tươi, hay dùng để làm mứt, nghiền ăn kèm với kem, nước quả
+                                    ép hay bánh hấp.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingTwo">
+                            <h4 class="panel-title"><a href="#collapseTwo"> <i
+                                        class="fa fa-caret-right"></i>&nbsp;&nbsp;Thông tin chi tiết </a></h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li style="text-align: justify;"><span style="font-size: 16px;"><span
+                                                style="text-decoration: underline;">Quả&nbsp;việt quất</span>&nbsp;chứa
+                                            nhiều anhthocyanidins giúp tăng cường hệ miễn dịch cũng như vô hiệu hóa các
+                                            gốc tự do dẫn đến ung thư hay các bệnh liên quan đến tuổi tác.</span></li>
+                                    <li style="text-align: justify;"><span style="font-size: 16px;">Trong <em>việt
+                                                quất</em> chứa nhiều các chất polyphenols, anthocyanins và axit ellagic
+                                            làm giảm quá trình oxy hóa LDL, cholesterol, kết nối tiểu cầu và viêm rất
+                                            tốt cho tim mạch và làm hạ cholesterol xấu. Đồng thời&nbsp;với bà bầu cũng
+                                            có cực kì nhiều tác dụng.</span></li>
+                                    <li style="text-align: justify;"><span style="font-size: 16px;">Với chất
+                                            pterostilbene có khả năng chống lão&nbsp;hóa và chống viêm giúp hạn chế
+                                            nhiễm trùng được tiết niệu.</span></li>
+                                    <li style="text-align: justify;"><span style="font-size: 16px;">Việt quất là loại <a
+                                                href="https://namanmarket.com.vn/collections/trai-cay-tuoi">trái cây
+                                                tươi</a> cung cấp vitamin A dồi dào tốt cho thị lực và giảm nguy cơ
+                                            thoái hóa điểm vàng đến 38% nếu ăn thường xuyên.</span></li>
+                                    <li style="text-align: justify;"><span style="font-size: 16px;">Nó có
+                                            chứa<strong>&nbsp;</strong>nhiều chất sơ có<strong>&nbsp;</strong>khả năng
+                                            đồng hóa chất natri, fructose và các vitamin giúp<strong>&nbsp;</strong>ngăn
+                                            ngừa táo bón và tăng cường tiêu hóa</span></li>
+                                    <li><span style="font-size: 16px;">Abutin giúp ngăn chặn quá trình hình thành sắc tố
+                                            đen, melanin&nbsp;</span></li>
+                                </ul>
+                                <p>Xem thêm:&nbsp;</p>
+                                <ol>
+                                    <li><a href="https://namanmarket.com.vn/blogs/kien-thuc-san-pham/thuc-pham-sach-la-gi"
+                                            target="_blank" rel="noopener noreferrer" title="THỰC PHẨM SẠCH LÀ GÌ?">THỰC
+                                            PHẨM SẠCH LÀ GÌ?</a></li>
+                                    <li><a
+                                            href="https://namanmarket.com.vn/blogs/kien-thuc-san-pham/gioi-thieu-rau-huu-co-tai-nam-an-market">RAU
+                                            HỮU CƠ TẠI NAM AN MARKET</a></li>
+                                    <li><a
+                                            href="https://namanmarket.com.vn/blogs/kien-thuc-san-pham/cach-phan-biet-rau-sach-huu-co-voi-rau-thuong">CÁCH
+                                            PHÂN BIỆT RAU SẠCH HỮU CƠ VỚI RAU THƯỜNG</a></li>
+                                    <li><a
+                                            href="https://namanmarket.com.vn/blogs/kien-thuc-san-pham/aco-chung-nhan-huu-co-hang-dau-cua-uc">ACO
+                                            - CHỨNG NHẬN HỮU CƠ HÀNG ĐẦU CỦA ÚC</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Comment -->
-        <!-- <div class="content box-shadow" style="position: static;"><div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="430" data-numposts="5"></div></div> -->
+        <div class="content box-shadow" style="position: static;">
+            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                data-width="1000" data-numposts="5"></div>
+        </div>
         <!-- recommended -->
         <div class="content box-shadow">
             <div style="margin: 20px;">
                 <div class="recommended">
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
-                                    src="https://product.hstatic.net/1000282430/product/viet-quat_large.jpg" />
-                                <div class="rcmd-name">Việt Quất</div>
+                                    src="https://product.hstatic.net/1000282430/product/qua-mam-xoi-170g-_large.jpg" />
+                                <div class="rcmd-name">Phúc Bồn Tử Đỏ 170g</div>
                                 <div class="rcmd-infor">
-                                    <div class="rcmd-price">₫185,500</div>
+                                    <div class="rcmd-price">₫94,500</div>
                                     <div class="rcmd-rate">★ ★ ★ ★ ☆</span>
                                         4.0</div>
                                 </div>
@@ -77,7 +167,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -92,7 +182,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -107,7 +197,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -122,7 +212,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="..items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -137,7 +227,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -152,7 +242,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -167,7 +257,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -182,7 +272,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -197,7 +287,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -212,7 +302,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
@@ -227,7 +317,7 @@
                         </div>
                     </a>
 
-                    <a class="rcmd-product-card box-shadow-rcmdcard" href="items/vietquat.html">
+                    <a class="rcmd-product-card box-shadow-rcmdcard" href="../items/phucbontu.html">
                         <div class="rcmd-product-card">
                             <div class="rcmd-product">
                                 <img class="rcmd-img"
